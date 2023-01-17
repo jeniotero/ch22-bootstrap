@@ -51,4 +51,4 @@ function divide ( ){
     const pro = (parseFloat(a) / parseFloat(b));   
      document.getElementById("respuesta").innerHTML = pro;
 };
-    
+

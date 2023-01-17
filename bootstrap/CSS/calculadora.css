@@ -1,3 +1,7 @@
+.contenedor{
+    width: 80%;
+}
+
 h1{
     margin-top: 60px;
 text-align: center;
@@ -14,20 +18,23 @@ header{
     
    padding: 20px;
   margin:auto;
+  align-self: center;
+ 
 }
 
 div#general{
     
     margin: 100px;
     height: 300px;
-    width: auto;
+   
     
     } 
 
 
-#respuesta{
+#respuesta, #reset{
     padding: 20px;
     text-align: center;
+   
 }
 
 
@@ -44,4 +51,20 @@ div#general{
 
 .logo-princesa{
     max-height: 40px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen  and (max-width:800px){
+    .contenedor{
+        width: 100%;
+    }
+}
+
+@media screen and  (max-width: 400px) {
+    .contenedor{
+        width: 60%;
+    }
 }
